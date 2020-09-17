@@ -1,3 +1,6 @@
+/* Element direct CSS should be at the top  */
+/* Order your CSS relative to the order of the HTML */
+
 ul {
     background: #424242;
 }
