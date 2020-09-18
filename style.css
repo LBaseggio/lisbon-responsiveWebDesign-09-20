@@ -1,6 +1,9 @@
 /* Element direct CSS should be at the top  */
 /* Order your CSS relative to the order of the HTML */
 
+/* ul {
+    background: #424242;
+} */
 ul {
     background: #424242;
 }
@@ -22,8 +25,7 @@ h2 {
 }
 
 input, textarea, select {
-    margin: 6px;
-    width: 100%;
+    margin-top: 16px;
 }
 
 .header-img {
@@ -33,14 +35,22 @@ input, textarea, select {
 
 #content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 200px;
 }
 
+.content-header {
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
 .image-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .image {
@@ -65,6 +75,29 @@ input, textarea, select {
     align-self: center;
     width: 80%;
     margin: auto;
+}
+
+
+
+@media (max-width: 800px) {
+    .image {
+        width: 40%;
+    }
+ }
+
+ @media (max-width: 600px) {
+    .image {
+        width: 50%;
+        margin: 16px;
+        padding: 10px;
+    }
+
+ }
+
+@media (max-width: 515px) {
+   .content-header {
+       color: blue;
+   } 
 }
 
 
