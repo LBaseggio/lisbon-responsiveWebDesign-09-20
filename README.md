@@ -1,6 +1,10 @@
 # Responsive Design Livecode
 
-This is a livecode which demonstrates flexbox, usage of CSS selectors, reset CSS, Class Usage & ID Usage.
+This is a livecode which demonstrates flexbox, usage of CSS selectors, reset CSS, Class Usage & ID Usage through coding a mockup.
+
+It is based off of the following mockup:
+
+http://images.innoveduc.fr/integration_parcours/css/css_box_model/maquette-box-model.png
 
 
 ## Top Tips
